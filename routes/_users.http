@@ -1,0 +1,16 @@
+
+
+GET http://localhost:5050/users
+
+#####
+
+POST http://localhost:5050/users/create HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "amina",
+    "lastName": "zaiyrova",
+    "email": "amina@gmail.com",
+    "password": "rtyyyyyyy"
+    
+}

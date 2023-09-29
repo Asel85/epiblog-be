@@ -1,0 +1,13 @@
+GET http://localhost:5050/posts/65086a77d4419b787338fa3f
+
+#####
+POST http://localhost:5050/posts HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "title":"almaz",
+    "content":"lorem nmjhuu nnnbvgff",
+    "image":"http://image.png",
+    "author":"almaz"
+}
